@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Book Appointment</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="design.css" rel="stylesheet">
+    <link href="nav_design.css" rel="stylesheet">
+    <link href="appointment.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-sm" style="background-color: #000000">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-auto" href="index.html">
+                <img src="my_logo1.png" alt="Logo" width="100px" class="rounded-pill mx-auto">
+            </a>
+        </div>
+    </nav>
+    
+    <div class="container border" style="width: auto">
+    <nav class="navbar navbar-expand-lg">
+        
+        <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: white">
+            Menu
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home_page.html">Home<span class="sr-only">(Current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="book_appointment.html">Book Appointment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Policy.html">Policy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+            </ul>
+        </div>
+        
+    </nav>
+        
+        <hr style="color: white; border-bottom: 1px">
+        
+        <div class="container; text-align:center">
+            <div class="map-responsive">
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.327964644026!2d-71.04457022383554!3d42.314203137997374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37afb848c801f%3A0x8b627c28a174fb5b!2sUMass%20Boston!5e0!3m2!1sen!2sus!4v1683267037768!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </div>
+        </div>
+        
+        <hr style="color: white; border-bottom: 1px">
+        
+        <div class="container text-center p-3 text-light">
+            <h5>Book your appointment</h5>
+            <p>Tell us how we can help you!</p>
+        </div>
+        
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <label for="First Name" class="form-label text-light">First Name*</label>
+                        <input type="First Name" class="form-control" id="First Name" placeholder="Enter your first name" name="First Name">
+                    </div>
+                    <div class="col">
+                        <label for="Last Name" class="form-label text-light">Last Name*</label>
+                        <input type="Last Name" class="form-control" id="Last Name" placeholder="Enter your Last name" name="Lsst Name">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col">
+                        <label for="Phone-number" class="form-label text-light">Phone-number*</label>
+                        <input type="Phone-number" class="form-control" id="Phone-number" placeholder="Enter your Phone-number" name="Phone-number">
+                    </div>
+                    <div class="col">
+                        <label for="Email" class="form-label text-light">Email*</label>
+                        <input type="Email" class="form-control" id="Email" placeholder="Enter your Email" name="Email">
+                    </div>
+                </div>
+                
+                </form>
+            
+             <div class="container p-3 text-light text-center">
+                    <label for="date_time">Choose your appointment date*</label>
+                    <input type="datetime-local" id="date_time" name="date_time">
+                 
+                </div>
+            
+        </div>
+        
+        <hr style="color: white; border-bottom: 1px">
+        
+        <div class="container text-center text-white text-light p-3">
+            <h5>Style your appointment</h5>
+        </div>
+        
+        <div class="container">
+            <form>
+                <label for="Retwist" style="color: white">Retwist:</label>
+                <select class="form-select">
+                    <option></option>
+                    <option>Retwist with simple style</option>
+                    <option>Retwist with complex style</option>
+                </select>
+                <br>
+                <label for="Coloring" style="color: white">Coloring:</label>
+                <select class="form-select">
+                    <option></option>
+                    <option>Full hair color</option>
+                    <option>Less than 10 loc coloring</option>
+                    <option>Tip coloring</option>
+                </select>
+                <br>
+                <label for="Renew" style="color: white">Renew:</label>
+                <select class="form-select">
+                    <option></option>
+                    <option>Loc restoration</option>
+                    <option>Loc re-attachment</option>
+                </select>
+                <br>
+                
+            </form>
+        </div>
+        
+        <hr style="color: white; border-bottom: 1px">
+        
+        <div class="container p-3 text-light">
+                <label for="comment">Comments:</label>
+                 <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+            </div>
+        
+        <div class="conatiner text-center text-light p-3">
+            <button class="btn btn-dark">Submit</button>
+        </div>
+        
+        <hr style="color: white; border-bottom: 1px">
+        
+        <div class="container_3 text-center">
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+        
+         <hr style="color: white; border-bottom: 1px">
+        
+         <div class="container text-white text-center">
+            <p>EnigmaCHIPS &trade;</p>
+        </div>
+        
+    </div>
+
+</body>

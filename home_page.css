@@ -1,0 +1,47 @@
+body{
+    background-color: #000000;
+}
+
+.container-fluid{
+    width: 100%;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.carousel-inner > .carousel-item > img{
+    //*height: 70vh; *//
+    overflow: hidden;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 40px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-facebook{
+    background: #000000;
+    color: white;
+}
+
+.fa-instagram{
+    background: #000000;
+    color: white;
+}
+
+.fa-twitter{
+    background: #000000;
+    color: white;
+}
+
+//*{
+    outline: solid 1px red;
+}
